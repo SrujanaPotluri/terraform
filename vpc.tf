@@ -4,7 +4,7 @@ resource "aws_vpc" "terraform_HCL" {
   instance_tenancy = "default"
 
   tags = { VPC_HCL
-    Name = "main"
+    Name = "terraform_HCL"
   }
 }
 
